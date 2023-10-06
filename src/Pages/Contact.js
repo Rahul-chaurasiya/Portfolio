@@ -19,7 +19,7 @@ const Contact = () => {
 
     return (
         <section>
-            <div class="py-8 dark:border-gray-600 lg:py-16 px-24 mx-auto mx-48 rounded min-width-full">
+            <div class="py-8 dark:border-gray-600 lg:py-16 px-24 mx-auto md:mx-36 rounded min-width-full">
                 <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Contact Us</h2>
                 <p class="mb-8 lg:mb-16 font-light  text-gray-500 dark:text-gray-400 sm:text-xl">Let's connect and look for ways to work together on exciting projects and contribute to the ever-changing digital world."</p>
                 <form ref={form} onSubmit={sendEmail} class="space-y-8">
